@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #F3F1FF;
+}
+/* header part start */
+.container{
+    width: 870px;
+    margin: 0 auto;
+
+}
+header{
+    width: 100%;
+    background-color: #562EFF;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+
+}
+.menu ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+/* header part end */
+section.top-player{
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 30px 33px 0 30px;
+}
+.section-title{
+    color: #562EFF;
+    /* font-weight: 500; */
+}
+.top-player-image{
+    margin-top: 40px;
+}
+.top-player-image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+}
+.player-image-detail{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.player-image-detail img{
+    width: 56px;
+    height: 56px;
+}
+hr{
+    margin: 18px 0 32px 0;
+    background-color: #D1D1D1;
+}
+
+/* Blog section start */
+article.top-blog{
+    padding-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 20px;
+    padding-bottom: 40px;
+}
+.blogs-body{
+    display: flex;
+    gap: 16px;
+}
+.blogs-body img{
+    width: 177px;
+    height: 117px;
+}
+.blogs-heading{
+    font-size: 20px;
+    font-weight: 500;
+}
+.blogs-body-wraper h2.blogs-heading a{
+    text-decoration: none;
+    color: black;
+}
+span{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blogs-body-wraper h3 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+    font-weight: normal;
+}
+course-wrapper h2.blog-body-text{
+    font-size: 210x;
+}
+/* Bloag section end */
+.courses{
+    background-color: #FFFFFF;
+    margin-top: 23px;
+    width: 870px;
+    margin: 23px auto 0px;
+}
+section.course{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.course-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+.course-wrapper{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 224px;
+}
+.course-wrapper img{
+    width: 224px;
+    height: 104px;
+}
+.course-author{
+    color: #ED6B4F;
+    font-size: 15px;
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+}
+.star .star1{
+    color: orange;
+    font-size: 10px;
+}
+.star .last{
+    color: #AEAEAE;
+    font-size: 10px;
+
+}
